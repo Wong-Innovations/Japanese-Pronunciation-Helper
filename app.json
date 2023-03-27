@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "japanese-pronunciation-helper",
+    "slug": "japanese-pronunciation-helper",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "japanese-pronunciation-helper"
+}
