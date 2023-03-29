@@ -1,10 +1,6 @@
-import TinySegmenter from 'tiny-segmenter';
 
 const getStringDiff = (stringA = '', stringB = '') => {
-    let segmenter = TinySegmenter();
-    let segs1 = segmenter.segment(stringA);
-    let segs2 = segmenter.segment(stringB);
-    return patienceDiff( segs1, segs2 ).lines;
+    return patienceDiff( stringA.split(''), stringB.split('') ).lines;
 }
 
 export default getStringDiff;

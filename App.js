@@ -7,7 +7,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
-      <Button onPress={() => console.log(TextUtils.default('おねがいします。', 'おねがいじます。'))} title="press me" />
+      <Button onPress={() => console.log(TextUtils.default('お願いします。', 'お願いじます。'))} title="press me" />
       <StatusBar style="auto" />
     </View>
   );
